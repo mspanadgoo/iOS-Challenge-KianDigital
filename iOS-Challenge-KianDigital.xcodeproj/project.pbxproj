@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9DE9A8DC268EC68400D85535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8DB268EC68400D85535 /* AppDelegate.swift */; };
 		9DE9A8DE268EC68400D85535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8DD268EC68400D85535 /* SceneDelegate.swift */; };
-		9DE9A8E0268EC68400D85535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8DF268EC68400D85535 /* ContentView.swift */; };
 		9DE9A8E2268EC68500D85535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9A8E1268EC68500D85535 /* Assets.xcassets */; };
 		9DE9A8E5268EC68500D85535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9A8E4268EC68500D85535 /* Preview Assets.xcassets */; };
 		9DE9A8E8268EC68500D85535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9A8E6268EC68500D85535 /* LaunchScreen.storyboard */; };
+		9DE9A8F0268EC7F000D85535 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8EF268EC7F000D85535 /* Contact.swift */; };
+		9DE9A8F2268EC92D00D85535 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8F1268EC92D00D85535 /* ContactsView.swift */; };
+		9DE9A8F4268EC9C100D85535 /* QuickAddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8F3268EC9C100D85535 /* QuickAddContactView.swift */; };
+		9DE9A8F6268ECAF400D85535 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8F5268ECAF400D85535 /* ContactsViewModel.swift */; };
+		9DE9A8FC268F422700D85535 /* CustomDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8FB268F422700D85535 /* CustomDividerView.swift */; };
+		9DE9A8FE268F592800D85535 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A8FD268F592800D85535 /* ContactView.swift */; };
+		9DE9A902269005A000D85535 /* CustomRemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A901269005A000D85535 /* CustomRemoteImageView.swift */; };
+		9DE9A9042690213400D85535 /* CustomSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A9032690213400D85535 /* CustomSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DE9A8D8268EC68400D85535 /* iOS-Challenge-KianDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Challenge-KianDigital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE9A8DB268EC68400D85535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE9A8DD268EC68400D85535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DE9A8DF268EC68400D85535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DE9A8E1268EC68500D85535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE9A8E4268EC68500D85535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DE9A8E7268EC68500D85535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE9A8E9268EC68500D85535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE9A8EF268EC7F000D85535 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9DE9A8F1268EC92D00D85535 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		9DE9A8F3268EC9C100D85535 /* QuickAddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddContactView.swift; sourceTree = "<group>"; };
+		9DE9A8F5268ECAF400D85535 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		9DE9A8FB268F422700D85535 /* CustomDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDividerView.swift; sourceTree = "<group>"; };
+		9DE9A8FD268F592800D85535 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		9DE9A901269005A000D85535 /* CustomRemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRemoteImageView.swift; sourceTree = "<group>"; };
+		9DE9A9032690213400D85535 /* CustomSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,16 @@
 		9DE9A8DA268EC68400D85535 /* iOS-Challenge-KianDigital */ = {
 			isa = PBXGroup;
 			children = (
+				9DE9A8E9268EC68500D85535 /* Info.plist */,
 				9DE9A8DB268EC68400D85535 /* AppDelegate.swift */,
 				9DE9A8DD268EC68400D85535 /* SceneDelegate.swift */,
-				9DE9A8DF268EC68400D85535 /* ContentView.swift */,
 				9DE9A8E1268EC68500D85535 /* Assets.xcassets */,
 				9DE9A8E6268EC68500D85535 /* LaunchScreen.storyboard */,
-				9DE9A8E9268EC68500D85535 /* Info.plist */,
 				9DE9A8E3268EC68500D85535 /* Preview Content */,
+				9DE9A90826902A5700D85535 /* CustomViews */,
+				9DE9A905269027E900D85535 /* Models */,
+				9DE9A906269027FE00D85535 /* ViewModels */,
+				9DE9A9072690282400D85535 /* Views */,
 			);
 			path = "iOS-Challenge-KianDigital";
 			sourceTree = "<group>";
@@ -73,6 +90,42 @@
 				9DE9A8E4268EC68500D85535 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DE9A905269027E900D85535 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9A8EF268EC7F000D85535 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DE9A906269027FE00D85535 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9A8F5268ECAF400D85535 /* ContactsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DE9A9072690282400D85535 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9A8F1268EC92D00D85535 /* ContactsView.swift */,
+				9DE9A8FD268F592800D85535 /* ContactView.swift */,
+				9DE9A8F3268EC9C100D85535 /* QuickAddContactView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DE9A90826902A5700D85535 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9A8FB268F422700D85535 /* CustomDividerView.swift */,
+				9DE9A901269005A000D85535 /* CustomRemoteImageView.swift */,
+				9DE9A9032690213400D85535 /* CustomSectionView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE9A8FC268F422700D85535 /* CustomDividerView.swift in Sources */,
+				9DE9A8FE268F592800D85535 /* ContactView.swift in Sources */,
+				9DE9A902269005A000D85535 /* CustomRemoteImageView.swift in Sources */,
+				9DE9A8F0268EC7F000D85535 /* Contact.swift in Sources */,
+				9DE9A8F4268EC9C100D85535 /* QuickAddContactView.swift in Sources */,
 				9DE9A8DC268EC68400D85535 /* AppDelegate.swift in Sources */,
+				9DE9A9042690213400D85535 /* CustomSectionView.swift in Sources */,
+				9DE9A8F6268ECAF400D85535 /* ContactsViewModel.swift in Sources */,
 				9DE9A8DE268EC68400D85535 /* SceneDelegate.swift in Sources */,
-				9DE9A8E0268EC68400D85535 /* ContentView.swift in Sources */,
+				9DE9A8F2268EC92D00D85535 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +351,7 @@
 				DEVELOPMENT_TEAM = KXXKG35M4P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iOS-Challenge-KianDigital/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.panadgoo.iOS-Challenge-KianDigital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +373,7 @@
 				DEVELOPMENT_TEAM = KXXKG35M4P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iOS-Challenge-KianDigital/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.panadgoo.iOS-Challenge-KianDigital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
